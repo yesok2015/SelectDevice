@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44sp"
+        android:textStyle="normal"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:gravity="center_horizontal"
+        android:text="연결할 기기를 선택해주세요"/>
+
+    <TextView
+        android:layout_width="119sp"
+        android:layout_height="26sp"
+
+        android:textStyle="normal"
+        android:textSize="13sp"
+        android:textColor="#80000000"
+        android:gravity="center_horizontal"
+        android:text="등록된 기기"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="135sp"
+        android:id="@+id/rectangle10">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="135sp"
+            android:background="@drawable/btn">
+        </View>
+
+        <TextView
+            android:layout_width="159sp"
+            android:layout_height="29sp"
+            android:textStyle="normal"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:text="사용자의 핸드폰"
+
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="22sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="250sp"
+            android:layout_height="40sp"
+            android:textStyle="normal"
+            android:textSize="13sp"
+            android:textColor="#80000000"
+            android:text="현재 화면을 유지하면 검색할 수 있습니다."
+
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="51sp">
+        </TextView>
+
+        <ImageView
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:src="@drawable/smartphone"
+
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10sp">
+        </ImageView>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="124sp"
+        android:layout_height="26sp"
+        android:textStyle="normal"
+        android:textSize="13sp"
+        android:textColor="#80000000"
+        android:gravity="center_horizontal"
+        android:text="연결 가능한 기기"
+
+        android:layout_marginTop="18sp"/>
+
+    <!--Code for layer -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95sp">
+
+        <Button
+            android:id="@+id/phillboxbtn1"
+            android:layout_width="match_parent"
+            android:layout_height="95sp"
+            android:background="@drawable/btn"
+            android:text="스마트약통"
+            android:textSize="25sp"
+            android:alpha="0.5"/>
+
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:src="@drawable/phillbox"
+
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20sp">
+        </ImageView>
+
+
+
+    </RelativeLayout>
+</LinearLayout>
